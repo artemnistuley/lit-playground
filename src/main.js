@@ -6,6 +6,7 @@ import CounterElement from './lit/counter-element';
 import { MyDispatcher, MyListener } from './lit/dispatcher-listener';
 import MediatorElement from './lit/mediator-element';
 import LoggingMixin from './lit/logging-mixin';
+import MouseHost from './lit/mouse-host';
 
 window.customElements.define('simple-greeting', SimpleGreeting);
 window.customElements.define('composing-templates', ComposingTemplates);
@@ -16,3 +17,4 @@ window.customElements.define('my-dispatcher', MyDispatcher);
 window.customElements.define('my-listener', MyListener);
 window.customElements.define('mediator-element', MediatorElement);
 window.customElements.define('mediator-element-logging', LoggingMixin(MediatorElement));
+window.customElements.define('mouse-host', MouseHost);
